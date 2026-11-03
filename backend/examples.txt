@@ -1,0 +1,7 @@
+curl -X POST http://localhost:4000/api/generate 
+-H "Content-Type: application/json" 
+-d '{"text": "Driving home on a rainy night listening to 80s synth music", "genre": "synthwave"}'
+
+ curl http://localhost:4000/api/status/<Job Type>
+
+ curl http://localhost:4000/api/song/<Job TYPe>
