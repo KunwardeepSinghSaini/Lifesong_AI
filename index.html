@@ -9,7 +9,7 @@ window.addEventListener('error',function(event){if(event.message&&!window.sceneR
 document.addEventListener('DOMContentLoaded',function(){
   if(window.sceneScriptError||window.sceneRuntimeError){var notice=document.getElementById('load-error');notice.hidden=false;notice.textContent='The scene could not start. Keep every ZIP folder intact and serve the files over HTTP or HTTPS. '+(window.sceneScriptError||window.sceneRuntimeError);}
 });
-window.LIFESONG_API_ORIGIN = 'https://kunwardeepsinghsaini.github.io/Lifesong_AI/';
+window.LIFESONG_API_ORIGIN = 'https://lifesong-ai.onrender.com';
 </script>
 <script src="vendor/aframe.min.js" onerror="window.sceneScriptError='A-Frame'"></script>
 <script src="stage.js?v=hero-clean-20261006" onerror="window.sceneScriptError='stage.js'"></script><script src="crowd.js" onerror="window.sceneScriptError='crowd.js'"></script><script src="movement.js" onerror="window.sceneScriptError='movement.js'"></script><script src="song.js" onerror="window.sceneScriptError='song.js'"></script><script src="game-core.js" onerror="window.sceneScriptError='game-core.js'"></script><script src="api.js?v=1" onerror="window.sceneScriptError='api.js'"></script><script src="game.js?v=hero-clean-20261006" onerror="window.sceneScriptError='game.js'"></script>
